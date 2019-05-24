@@ -1,0 +1,3 @@
+vhdtdtfi -lib work reg4.vhd -prj rw -o reg4.spl -module reg4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e reg4.spl /vol/fob-vol7/mi18/kuehnese/dslab/rw/reg4.sym 
+vhdtdtfi -prj rw -o /vol/fob-vol7/mi18/kuehnese/dslab/rw/reg4.vhi -module reg4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work reg4.vhd 

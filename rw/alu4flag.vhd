@@ -30,7 +30,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity alu4flag is
-generic(bits:integer:=8);
+generic(bits:integer:=4);
     Port ( BA : in  STD_LOGIC;
            S : in  STD_LOGIC_VECTOR (4-1 downto 0);
            A : in  STD_LOGIC_VECTOR (bits-1 downto 0);
@@ -67,7 +67,7 @@ Signal Cout_inter: STD_LOGIC;
 Signal Q_inter: STD_LOGIC_VECTOR (bits-1 downto 0);
 
 begin
-	--Cn_inter <= Cn;
+--Cn_inter <= Cn;
 --	Cout_inter <= Cout;
 --	Q_inter <= Q;
 	

@@ -1,0 +1,8 @@
+[Inputs]
+CE
+Clk
+Res
+=D[3:0]=
+[Outputs]
+=Q[3:0]=
+[BiDir]

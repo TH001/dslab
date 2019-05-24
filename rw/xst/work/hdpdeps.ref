@@ -1,0 +1,6 @@
+V3 3
+FL /vol/fob-vol7/mi18/kuehnese/dslab/rw/reg4.vhd 2019/05/24.11:43:44 P.68d
+EN work/reg4 1558691028 FL /vol/fob-vol7/mi18/kuehnese/dslab/rw/reg4.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/reg4/Behavioral 1558691029 \
+      FL /vol/fob-vol7/mi18/kuehnese/dslab/rw/reg4.vhd EN work/reg4 1558691028

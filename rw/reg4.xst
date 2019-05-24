@@ -1,0 +1,5 @@
+set -tmpdir "/vol/fob-vol7/mi18/kuehnese/dslab/rw/xst/projnav.tmp"
+set -xsthdpdir "/vol/fob-vol7/mi18/kuehnese/dslab/rw/xst"
+elaborate
+-ifn reg4.prj
+-ifmt mixed
