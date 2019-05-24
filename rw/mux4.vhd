@@ -41,11 +41,14 @@ architecture Behavioral of mux4 is
 
 begin
 
-Y <= (X0 and S) or (X1 and not(S));
-
---if S = 0 then
---	Y <= X0;
---else Y <= X1;
+-- Y <= (X0 and S) or (X1 and not(S));
+process(S,X0,X1)
+begin
+	if S = 0 then
+		Y <= X0;
+	else Y <= X1;
+	end if;
+end process;
 
 end Behavioral;
 
