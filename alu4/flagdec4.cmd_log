@@ -1,0 +1,4 @@
+vhdtdtfi -lib work flagdec4.vhd -prj alu4 -o flagdec4.spl -module flagdec4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e flagdec4.spl /vol/fob-vol7/mi18/heinetom/dslab/alu4/flagdec4.sym 
+vhdtdtfi -lib work flagdec4.vhd -prj alu4 -o flagdec4.spl -module flagdec4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e flagdec4.spl /vol/fob-vol7/mi18/heinetom/dslab/alu4/flagdec4.sym 

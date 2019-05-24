@@ -1,0 +1,81 @@
+# //  ModelSim SE 10.0b May  5 2011 Linux 3.8-trunk-686-pae
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {alu4flag_alu4flag_sch_tb.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu1propagate
+# -- Compiling architecture Behavioral of alu1propagate
+# Model Technology ModelSim SE vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu1generate
+# -- Compiling architecture Behavioral of alu1generate
+# Model Technology ModelSim SE vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu1
+# -- Compiling architecture Behavioral of alu1
+# Model Technology ModelSim SE vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flagdec4
+# -- Compiling architecture Behavioral of flagdec4
+# Model Technology ModelSim SE vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu4
+# -- Compiling architecture Behavioral of alu4
+# Model Technology ModelSim SE vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu4flag
+# -- Compiling architecture Behavioral of alu4flag
+# Model Technology ModelSim SE vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity alu4flag_alu4flag_sch_tb
+# -- Compiling architecture behavioral of alu4flag_alu4flag_sch_tb
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.alu4flag_alu4flag_sch_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.alu4flag_alu4flag_sch_tb(behavioral)#1
+# Loading work.alu4flag(behavioral)#1
+# Loading work.alu4(behavioral)#1
+# Loading work.alu1(behavioral)#1
+# Loading work.alu1generate(behavioral)#1
+# Loading work.alu1propagate(behavioral)#1
+# Loading work.flagdec4(behavioral)#1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: TESTPHASE Logik
+#    Time: 0 ps  Iteration: 0  Instance: /alu4flag_alu4flag_sch_tb
+# ** Note: TESTPHASE Arit
+#    Time: 70 ns  Iteration: 0  Instance: /alu4flag_alu4flag_sch_tb
+# ** Failure: Done - simulation stopped unconditional
+#    Time: 110 ns  Iteration: 0  Process: /alu4flag_alu4flag_sch_tb/tb File: alu4flag_tb.vhd
+# Break in Process tb at alu4flag_tb.vhd line 217
+# Simulation Breakpoint: Break in Process tb at alu4flag_tb.vhd line 217
+# MACRO ./alu4flag_alu4flag_sch_tb.fdo PAUSED at line 51

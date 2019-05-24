@@ -1,0 +1,170 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/vol/fob-vol7/mi18/heinetom/dslab/mux
+T_opt
+Z1 V1Yc9JCo6QC59_QeR[mTfP2
+Z2 04 16 10 work mux2_mux2_sch_tb behavioral 1
+Z3 =1-a41f724eae7d-5cc2c9a3-85a24-42d4
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;10.0b;49
+Z7 d/vol/fob-vol7/mi18/heinetom/dslab/mux
+T_opt1
+Z8 V@PSbRTb79SI@IMf8aSDb41
+Z9 04 4 10 work mux4 BEHAVIORAL 1
+Z10 =1-a41f724eae7d-5cc2ccb4-d695e-441b
+R4
+Z11 n@_opt1
+R6
+R7
+Emux2
+Z12 w1556269355
+Z13 DPx6 unisim 11 vcomponents 0 22 B@:5968B4@94e8]LgiR>R3
+Z14 DPx4 ieee 11 numeric_std 0 22 k7B<7GmYYYmX;0X]XHFD10
+Z15 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z16 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R7
+Z17 8mux2.vhf
+Z18 Fmux2.vhf
+l0
+L28
+Z19 V6lKhiCjdCH7[ZMW^Q;AQ=3
+Z20 OE;C;10.0b;49
+31
+Z21 !s108 1556270259.793991
+Z22 !s90 -reportprogress|300|-explicit|-93|mux2.vhf|
+Z23 !s107 mux2.vhf|
+Z24 o-explicit -93
+Z25 tExplicit 1
+Z26 !s100 mTcWY9Qhl8k8MZe3lZZ852
+Abehavioral
+R13
+R14
+R15
+R16
+Z27 DEx4 work 4 mux2 0 22 6lKhiCjdCH7[ZMW^Q;AQ=3
+l60
+L35
+Z28 VUVKJ2Q6l0z`OP`JWOMN2d3
+R20
+31
+R21
+R22
+R23
+R24
+R25
+Z29 !s100 W05M2@PaPGWgWdfVm=NAo3
+Emux2_muser_mux4
+Z30 w1556270254
+R13
+R14
+R15
+R16
+R7
+Z31 8mux4.vhf
+Z32 Fmux4.vhf
+l0
+L28
+Z33 VWaFA[i4X>lld4haad1<6j3
+R20
+31
+Z34 !s108 1556270260.233167
+Z35 !s90 -reportprogress|300|-explicit|-93|mux4.vhf|
+Z36 !s107 mux4.vhf|
+R24
+R25
+Z37 !s100 CFYb4`kS^C@`SJ]26J=7h0
+Abehavioral
+R13
+R14
+R15
+R16
+Z38 DEx4 work 15 mux2_muser_mux4 0 22 WaFA[i4X>lld4haad1<6j3
+l60
+L35
+Z39 VXKEKzMfA:>Sf1?HfNQ?_e0
+R20
+31
+Z40 !s108 1556269996.278473
+R35
+R36
+R24
+R25
+Z41 !s100 REPPdi`FikzFV9KJ;[0`O3
+Z42 w1556269991
+Emux2_mux2_sch_tb
+Z43 w1429271606
+R13
+R14
+R15
+R16
+R7
+Z44 8mux2_tb.vhd
+Z45 Fmux2_tb.vhd
+l0
+L20
+Z46 V=iIY9EYVaRDfg;dljh<f;2
+R20
+31
+Z47 !s108 1556269475.020618
+Z48 !s90 -reportprogress|300|-explicit|-93|mux2_tb.vhd|
+Z49 !s107 mux2_tb.vhd|
+R24
+R25
+Z50 !s100 ^C_CJX6T9cKne;BQVnTe_0
+Abehavioral
+R13
+R14
+R15
+R16
+Z51 DEx4 work 16 mux2_mux2_sch_tb 0 22 =iIY9EYVaRDfg;dljh<f;2
+l36
+L22
+Z52 VNAVOFgnb@QBBR3KOQnE`53
+R20
+31
+R47
+R48
+R49
+R24
+R25
+Z53 !s100 iKDJjf943<5LnP<=RMlAF2
+Emux4
+R30
+R13
+R14
+R15
+R16
+R7
+R31
+R32
+l0
+L90
+Z54 V?2>mO;a4izbc?jPoJCWi61
+R20
+31
+R34
+R35
+R36
+R24
+R25
+Z55 !s100 06QzoEnQi;iHC0VoM?z5h2
+Abehavioral
+R13
+R14
+R15
+R16
+Z56 DEx4 work 4 mux4 0 22 ?2>mO;a4izbc?jPoJCWi61
+l105
+L97
+Z57 VCe?Mi[DdzCj2i_;W[aQLP3
+R20
+31
+R34
+R35
+R36
+R24
+R25
+Z58 !s100 k6mXCH?]ffaNS;mZGGIo33

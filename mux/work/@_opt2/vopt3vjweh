@@ -1,0 +1,214 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/vol/fob-vol7/mi18/heinetom/dslab/mux
+T_opt
+Z1 V1Yc9JCo6QC59_QeR[mTfP2
+Z2 04 16 10 work mux2_mux2_sch_tb behavioral 1
+Z3 =1-a41f724eae7d-5cc2c9a3-85a24-42d4
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;10.0b;49
+Z7 d/vol/fob-vol7/mi18/heinetom/dslab/mux
+T_opt1
+Z8 V@PSbRTb79SI@IMf8aSDb41
+Z9 04 4 10 work mux4 BEHAVIORAL 1
+Z10 =1-a41f724eae7d-5cc2ccb4-d695e-441b
+R4
+Z11 n@_opt1
+R6
+R7
+T_opt2
+Z12 VUQGHEFm>L8;Ub]^>@BXzi0
+Z13 04 16 10 work mux4_mux4_sch_tb behavioral 1
+Z14 =1-a41f724eae7d-5cc2ea22-b63db-4ca6
+R4
+Z15 n@_opt2
+R6
+R7
+Emux2
+Z16 w1556269355
+Z17 DPx6 unisim 11 vcomponents 0 22 B@:5968B4@94e8]LgiR>R3
+Z18 DPx4 ieee 11 numeric_std 0 22 k7B<7GmYYYmX;0X]XHFD10
+Z19 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z20 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R7
+Z21 8mux2.vhf
+Z22 Fmux2.vhf
+l0
+L28
+Z23 V6lKhiCjdCH7[ZMW^Q;AQ=3
+Z24 OE;C;10.0b;49
+31
+Z25 !s108 1556277793.185744
+Z26 !s90 -reportprogress|300|-explicit|-93|mux2.vhf|
+Z27 !s107 mux2.vhf|
+Z28 o-explicit -93
+Z29 tExplicit 1
+Z30 !s100 mTcWY9Qhl8k8MZe3lZZ852
+Abehavioral
+R17
+R18
+R19
+R20
+Z31 DEx4 work 4 mux2 0 22 6lKhiCjdCH7[ZMW^Q;AQ=3
+l60
+L35
+Z32 VUVKJ2Q6l0z`OP`JWOMN2d3
+R24
+31
+R25
+R26
+R27
+R28
+R29
+Z33 !s100 W05M2@PaPGWgWdfVm=NAo3
+Emux2_muser_mux4
+Z34 w1556270254
+R17
+R18
+R19
+R20
+R7
+Z35 8mux4.vhf
+Z36 Fmux4.vhf
+l0
+L28
+Z37 VWaFA[i4X>lld4haad1<6j3
+R24
+31
+Z38 !s108 1556277793.599679
+Z39 !s90 -reportprogress|300|-explicit|-93|mux4.vhf|
+Z40 !s107 mux4.vhf|
+R28
+R29
+Z41 !s100 CFYb4`kS^C@`SJ]26J=7h0
+Abehavioral
+R17
+R18
+R19
+R20
+Z42 DEx4 work 15 mux2_muser_mux4 0 22 WaFA[i4X>lld4haad1<6j3
+l60
+L35
+Z43 VXKEKzMfA:>Sf1?HfNQ?_e0
+R24
+31
+Z44 !s108 1556270287.434018
+R39
+R40
+R28
+R29
+Z45 !s100 REPPdi`FikzFV9KJ;[0`O3
+Emux2_mux2_sch_tb
+Z46 w1429271606
+R17
+R18
+R19
+R20
+R7
+Z47 8mux2_tb.vhd
+Z48 Fmux2_tb.vhd
+l0
+L20
+Z49 V=iIY9EYVaRDfg;dljh<f;2
+R24
+31
+Z50 !s108 1556269475.020618
+Z51 !s90 -reportprogress|300|-explicit|-93|mux2_tb.vhd|
+Z52 !s107 mux2_tb.vhd|
+R28
+R29
+Z53 !s100 ^C_CJX6T9cKne;BQVnTe_0
+Abehavioral
+R17
+R18
+R19
+R20
+Z54 DEx4 work 16 mux2_mux2_sch_tb 0 22 =iIY9EYVaRDfg;dljh<f;2
+l36
+L22
+Z55 VNAVOFgnb@QBBR3KOQnE`53
+R24
+31
+R50
+R51
+R52
+R28
+R29
+Z56 !s100 iKDJjf943<5LnP<=RMlAF2
+Emux4
+R34
+R17
+R18
+R19
+R20
+R7
+R35
+R36
+l0
+L90
+Z57 V?2>mO;a4izbc?jPoJCWi61
+R24
+31
+R38
+R39
+R40
+R28
+R29
+Z58 !s100 06QzoEnQi;iHC0VoM?z5h2
+Abehavioral
+R17
+R18
+R19
+R20
+Z59 DEx4 work 4 mux4 0 22 ?2>mO;a4izbc?jPoJCWi61
+l105
+L97
+Z60 VCe?Mi[DdzCj2i_;W[aQLP3
+R24
+31
+R44
+R39
+R40
+R28
+R29
+Z61 !s100 k6mXCH?]ffaNS;mZGGIo33
+Emux4_mux4_sch_tb
+Z62 w1556277787
+R17
+R18
+R19
+R20
+R7
+Z63 8mux4_tb.vhd
+Z64 Fmux4_tb.vhd
+l0
+L20
+Z65 VbzB<z:U@XXFU1FaQiSASY0
+R24
+31
+Z66 !s108 1556277794.186310
+Z67 !s90 -reportprogress|300|-explicit|-93|mux4_tb.vhd|
+Z68 !s107 mux4_tb.vhd|
+R28
+R29
+Z69 !s100 I7cF_@d<^FlGLI]]VnKWT0
+Abehavioral
+R17
+R18
+R19
+R20
+Z70 DEx4 work 16 mux4_mux4_sch_tb 0 22 bzB<z:U@XXFU1FaQiSASY0
+l36
+L22
+Z71 V[TJKiL5Xf014NzW7aYbBB0
+R24
+31
+R66
+R67
+R68
+R28
+R29
+Z72 !s100 RX:AM?41G844J[LJ7oe`e2

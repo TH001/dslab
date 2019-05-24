@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="alu4.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu1.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="alu1.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="alu1.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="alu1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="alu1.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="alu1_alu1_sch_tb.fdo"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu1generate.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="alu1generate.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="alu1generate.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu1propagate.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="alu1propagate.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="alu1propagate.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="alu4.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="alu4.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="alu4.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="alu4.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu4.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="alu4.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="alu4.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="alu4.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="alu4.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="alu4.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="alu4_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="alu4_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu4_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alu4_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="alu4flag.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="alu4flag.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="alu4flag.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="alu4flag.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="alu4flag.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="alu4flag.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="alu4flag.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="alu4flag.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="alu4flag.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="alu4flag.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu4flag.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="alu4flag.ptwx"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="alu4flag.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="alu4flag.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="alu4flag.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="alu4flag.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="alu4flag.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="alu4flag.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="alu4flag.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="alu4flag.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="alu4flag.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="alu4flag_alu4flag_sch_tb.fdo"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="alu4flag_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="alu4flag_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="alu4flag_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="alu4flag_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="alu4flag_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="alu4flag_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alu4flag_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alu4flag_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="alu4flag_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="alu4flag_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alu4flag_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="alu4flag_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="alu4flag_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="alu4flag_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu4flag_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alu4flag_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="flagdec4.fdo"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flagdec4.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="flagdec4.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="flagdec4.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="flagdec4.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="flagdec4.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_LOG" xil_pn:name="vsim.wlf"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="work"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1557480313" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1557480313">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557934607" xil_pn:in_ck="4849483185837729588" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1557934607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="alu1.vhd"/>
+      <outfile xil_pn:name="alu1_tb.vhd"/>
+      <outfile xil_pn:name="alu1generate.vhd"/>
+      <outfile xil_pn:name="alu1propagate.vhd"/>
+      <outfile xil_pn:name="alu4.vhd"/>
+      <outfile xil_pn:name="alu4flag.vhd"/>
+      <outfile xil_pn:name="alu4flag_tb.vhd"/>
+      <outfile xil_pn:name="flagdec4.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1557934237" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1955664433229093613" xil_pn:start_ts="1557934237">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557934237" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5174154436132898961" xil_pn:start_ts="1557934237">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557496788" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1561915043220171877" xil_pn:start_ts="1557496788">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557934607" xil_pn:in_ck="4849483185837729588" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1557934607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="alu1.vhd"/>
+      <outfile xil_pn:name="alu1_tb.vhd"/>
+      <outfile xil_pn:name="alu1generate.vhd"/>
+      <outfile xil_pn:name="alu1propagate.vhd"/>
+      <outfile xil_pn:name="alu4.vhd"/>
+      <outfile xil_pn:name="alu4flag.vhd"/>
+      <outfile xil_pn:name="alu4flag_tb.vhd"/>
+      <outfile xil_pn:name="flagdec4.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1557934608" xil_pn:in_ck="4849483185837729588" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1557934607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="alu4flag_alu4flag_sch_tb.fdo"/>
+      <outfile xil_pn:name="vsim.wlf"/>
+      <outfile xil_pn:name="work"/>
+    </transform>
+    <transform xil_pn:end_ts="1557492741" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1557492741">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557495196" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4796456914936444626" xil_pn:start_ts="1557495196">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557495196" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1561915043220171877" xil_pn:start_ts="1557495196">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557492741" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1557492741">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557495196" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8014764485222048532" xil_pn:start_ts="1557495196">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557492741" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1557492741">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557495196" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="6934718242296494629" xil_pn:start_ts="1557495196">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557933260" xil_pn:in_ck="-3693449759560309913" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4358791829311142097" xil_pn:start_ts="1557933245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="alu4.ngr"/>
+      <outfile xil_pn:name="alu4flag.lso"/>
+      <outfile xil_pn:name="alu4flag.ngc"/>
+      <outfile xil_pn:name="alu4flag.ngr"/>
+      <outfile xil_pn:name="alu4flag.prj"/>
+      <outfile xil_pn:name="alu4flag.stx"/>
+      <outfile xil_pn:name="alu4flag.syr"/>
+      <outfile xil_pn:name="alu4flag.xst"/>
+      <outfile xil_pn:name="alu4flag_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1557933260" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7820374052440925304" xil_pn:start_ts="1557933260">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557933267" xil_pn:in_ck="5869831964060744690" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1200891015937133224" xil_pn:start_ts="1557933260">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="alu4flag.bld"/>
+      <outfile xil_pn:name="alu4flag.ngd"/>
+      <outfile xil_pn:name="alu4flag_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1557933277" xil_pn:in_ck="5073502629643022455" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1557933267">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="alu4flag.pcf"/>
+      <outfile xil_pn:name="alu4flag_map.map"/>
+      <outfile xil_pn:name="alu4flag_map.mrp"/>
+      <outfile xil_pn:name="alu4flag_map.ncd"/>
+      <outfile xil_pn:name="alu4flag_map.ngm"/>
+      <outfile xil_pn:name="alu4flag_map.xrpt"/>
+      <outfile xil_pn:name="alu4flag_summary.xml"/>
+      <outfile xil_pn:name="alu4flag_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1557933294" xil_pn:in_ck="-1202470874824301808" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3872219738485705569" xil_pn:start_ts="1557933277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="alu4flag.ncd"/>
+      <outfile xil_pn:name="alu4flag.pad"/>
+      <outfile xil_pn:name="alu4flag.par"/>
+      <outfile xil_pn:name="alu4flag.ptwx"/>
+      <outfile xil_pn:name="alu4flag.unroutes"/>
+      <outfile xil_pn:name="alu4flag.xpi"/>
+      <outfile xil_pn:name="alu4flag_pad.csv"/>
+      <outfile xil_pn:name="alu4flag_pad.txt"/>
+      <outfile xil_pn:name="alu4flag_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1557933294" xil_pn:in_ck="5073502629643022323" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1557933291">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="alu4flag.twr"/>
+      <outfile xil_pn:name="alu4flag.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

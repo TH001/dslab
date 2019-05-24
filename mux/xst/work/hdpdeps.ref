@@ -1,0 +1,43 @@
+V3 23
+FL /vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.vhf 2019/04/26.11:24:33 P.68d
+EN work/mux2_MUSER_board_mux4 1556270679 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.vhf \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611 LB UNISIM \
+      PH unisim/VCOMPONENTS 1370735613
+AR work/mux2_MUSER_board_mux4/BEHAVIORAL 1556270680 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.vhf \
+      EN work/mux2_MUSER_board_mux4 1556270679 CP AND2 CP OR2 CP INV
+EN work/mux4_MUSER_board_mux4 1556270681 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.vhf \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611 LB UNISIM \
+      PH unisim/VCOMPONENTS 1370735613
+AR work/mux4_MUSER_board_mux4/BEHAVIORAL 1556270682 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.vhf \
+      EN work/mux4_MUSER_board_mux4 1556270681 CP mux2_MUSER_board_mux4
+EN work/board_mux4 1556270683 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.vhf \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611 LB UNISIM \
+      PH unisim/VCOMPONENTS 1370735613
+AR work/board_mux4/BEHAVIORAL 1556270684 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.vhf EN work/board_mux4 1556270683 \
+      CP mux4_MUSER_board_mux4 CP BUF
+FL /vol/fob-vol7/mi18/heinetom/dslab/mux/mux2.vhf 2019/04/26.11:02:35 P.68d
+EN work/mux2 1556270689 FL /vol/fob-vol7/mi18/heinetom/dslab/mux/mux2.vhf \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611 LB UNISIM \
+      PH unisim/VCOMPONENTS 1370735613
+AR work/mux2/BEHAVIORAL 1556270690 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/mux2.vhf EN work/mux2 1556270689 \
+      CP AND2 CP OR2 CP INV
+FL /vol/fob-vol7/mi18/heinetom/dslab/mux/mux4.vhf 2019/04/26.11:17:34 P.68d
+EN work/mux2_MUSER_mux4 1556270685 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/mux4.vhf PB ieee/std_logic_1164 1370735607 \
+      PB ieee/NUMERIC_STD 1370735611 LB UNISIM PH unisim/VCOMPONENTS 1370735613
+AR work/mux2_MUSER_mux4/BEHAVIORAL 1556270686 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/mux4.vhf EN work/mux2_MUSER_mux4 1556270685 \
+      CP AND2 CP OR2 CP INV
+EN work/mux4 1556270687 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/mux4.vhf PB ieee/std_logic_1164 1370735607 \
+      PB ieee/NUMERIC_STD 1370735611 LB UNISIM PH unisim/VCOMPONENTS 1370735613
+AR work/mux4/BEHAVIORAL 1556270688 \
+      FL /vol/fob-vol7/mi18/heinetom/dslab/mux/mux4.vhf EN work/mux4 1556270687 \
+      CP mux2_MUSER_mux4

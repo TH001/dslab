@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_mux4.ucf -p xc3s500e-fg320-4 board_mux4.ngc board_mux4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o board_mux4_map.ncd board_mux4.ngd board_mux4.pcf 
+par -w -intstyle ise -ol high -t 1 board_mux4_map.ncd board_mux4.ncd board_mux4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml board_mux4.twx board_mux4.ncd -o board_mux4.twr board_mux4.pcf -ucf board_mux4.ucf 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_mux4.ucf -p xc3s500e-fg320-4 board_mux4.ngc board_mux4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o board_mux4_map.ncd board_mux4.ngd board_mux4.pcf 
+par -w -intstyle ise -ol high -t 1 board_mux4_map.ncd board_mux4.ncd board_mux4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml board_mux4.twx board_mux4.ncd -o board_mux4.twr board_mux4.pcf -ucf board_mux4.ucf 
+bitgen -intstyle ise -f board_mux4.ut board_mux4.ncd 

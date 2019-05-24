@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/vol/fob-vol7/mi18/heinetom/dslab/mux
+T_opt
+Z1 V1Yc9JCo6QC59_QeR[mTfP2
+Z2 04 16 10 work mux2_mux2_sch_tb behavioral 1
+Z3 =1-a41f724eae7d-5cc2c9a3-85a24-42d4
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;10.0b;49
+Z7 d/vol/fob-vol7/mi18/heinetom/dslab/mux
+Emux2
+Z8 w1556269355
+Z9 DPx6 unisim 11 vcomponents 0 22 B@:5968B4@94e8]LgiR>R3
+Z10 DPx4 ieee 11 numeric_std 0 22 k7B<7GmYYYmX;0X]XHFD10
+Z11 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z12 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R7
+Z13 8mux2.vhf
+Z14 Fmux2.vhf
+l0
+L28
+Z15 V6lKhiCjdCH7[ZMW^Q;AQ=3
+Z16 OE;C;10.0b;49
+31
+Z17 !s108 1556269474.439172
+Z18 !s90 -reportprogress|300|-explicit|-93|mux2.vhf|
+Z19 !s107 mux2.vhf|
+Z20 o-explicit -93
+Z21 tExplicit 1
+Z22 !s100 mTcWY9Qhl8k8MZe3lZZ852
+Abehavioral
+R9
+R10
+R11
+R12
+Z23 DEx4 work 4 mux2 0 22 6lKhiCjdCH7[ZMW^Q;AQ=3
+l60
+L35
+Z24 VUVKJ2Q6l0z`OP`JWOMN2d3
+R16
+31
+R17
+R18
+R19
+R20
+R21
+Z25 !s100 W05M2@PaPGWgWdfVm=NAo3
+Emux2_mux2_sch_tb
+Z26 w1429271606
+R9
+R10
+R11
+R12
+R7
+Z27 8mux2_tb.vhd
+Z28 Fmux2_tb.vhd
+l0
+L20
+Z29 V=iIY9EYVaRDfg;dljh<f;2
+R16
+31
+Z30 !s108 1556269475.020618
+Z31 !s90 -reportprogress|300|-explicit|-93|mux2_tb.vhd|
+Z32 !s107 mux2_tb.vhd|
+R20
+R21
+Z33 !s100 ^C_CJX6T9cKne;BQVnTe_0
+Abehavioral
+R9
+R10
+R11
+R12
+Z34 DEx4 work 16 mux2_mux2_sch_tb 0 22 =iIY9EYVaRDfg;dljh<f;2
+l36
+L22
+Z35 VNAVOFgnb@QBBR3KOQnE`53
+R16
+31
+R30
+R31
+R32
+R20
+R21
+Z36 !s100 iKDJjf943<5LnP<=RMlAF2

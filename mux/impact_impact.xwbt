@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/vol/fob-vol7/mi18/heinetom/dslab/mux/impact.xsl
+OUTFILE=/vol/fob-vol7/mi18/heinetom/dslab/mux/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/vol/fob-vol7/mi18/heinetom/dslab/mux
+LICENSE=iMPACT
+USER_INFO=iMPACT

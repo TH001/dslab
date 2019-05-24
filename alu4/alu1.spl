@@ -1,0 +1,10 @@
+[Inputs]
+BA
+cin
+a
+b
+=S[3:0]=
+[Outputs]
+q
+cout
+[BiDir]

@@ -1,0 +1,3 @@
+MODULE board_mux4
+	SUBMODULE mux4
+		INSTANCE XLXI_1

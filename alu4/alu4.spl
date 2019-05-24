@@ -1,0 +1,11 @@
+[Inputs]
+BA
+Cin
+=S[3:0]=
+=A[3:0]=
+=B[3:0]=
+[Outputs]
+Cout
+Cn
+=Q[3:0]=
+[BiDir]

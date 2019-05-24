@@ -1,0 +1,5 @@
+set -tmpdir "/vol/fob-vol7/mi18/heinetom/dslab/alu4/xst/projnav.tmp"
+set -xsthdpdir "/vol/fob-vol7/mi18/heinetom/dslab/alu4/xst"
+elaborate
+-ifn alu1generate.prj
+-ifmt mixed

@@ -1,0 +1,3 @@
+vhdl work "alu1propagate.vhd"
+vhdl work "alu1generate.vhd"
+vhdl work "alu1.vhd"

@@ -1,0 +1,14 @@
+vhdtdtfi -lib work alu1propagate.vhd -lib work alu1generate.vhd -lib work alu1.vhd -lib work alu4.vhd -prj alu4 -o alu4.spl -module alu4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e alu4.spl /vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.sym 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+vhdtdtfi -lib work alu1propagate.vhd -lib work alu1generate.vhd -lib work alu1.vhd -lib work alu4.vhd -prj alu4 -o alu4.spl -module alu4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e alu4.spl /vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.sym 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab/alu4/alu4.syr" 

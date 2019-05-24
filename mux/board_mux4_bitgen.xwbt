@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.ncd
+OUTFILE=/vol/fob-vol7/mi18/heinetom/dslab/mux/board_mux4.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/vol/fob-vol7/mi18/heinetom/dslab/mux
+LICENSE=ISE
+USER_INFO=174170730_177819036_210696468_560

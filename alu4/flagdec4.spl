@@ -1,0 +1,7 @@
+[Inputs]
+Cn
+Cout
+=Q[3:0]=
+[Outputs]
+=F[3:0]=
+[BiDir]
