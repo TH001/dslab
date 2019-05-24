@@ -1,0 +1,565 @@
+Release 14.6 - xst P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: rw4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "rw4.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "rw4"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : rw4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu1generate.vhd" in Library work.
+Architecture behavioral of Entity alu1generate is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu1propagate.vhd" in Library work.
+Architecture behavioral of Entity alu1propagate is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu1.vhd" in Library work.
+Architecture behavioral of Entity alu1 is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu4.vhd" in Library work.
+Architecture behavioral of Entity alu4 is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/flagdec4.vhd" in Library work.
+Architecture behavioral of Entity flagdec4 is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu4flag.vhd" in Library work.
+Architecture behavioral of Entity alu4flag is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/mux4.vhd" in Library work.
+Architecture behavioral of Entity mux4 is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/reg4.vhd" in Library work.
+Architecture behavioral of Entity reg4 is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/ram4.vhd" in Library work.
+Architecture behavioral of Entity ram4 is up to date.
+Compiling vhdl file "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.vhd" in Library work.
+Entity <rw4> compiled.
+Entity <rw4> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <rw4> in library <work> (architecture <behavioral>) with generics.
+	adressbits = 2
+	bits = 4
+
+Analyzing hierarchy for entity <alu4flag> in library <work> (architecture <behavioral>) with generics.
+	bits = 4
+
+Analyzing hierarchy for entity <mux4> in library <work> (architecture <behavioral>) with generics.
+	bits = 4
+
+Analyzing hierarchy for entity <reg4> in library <work> (architecture <behavioral>) with generics.
+	bits = 4
+
+Analyzing hierarchy for entity <ram4> in library <work> (architecture <behavioral>) with generics.
+	adressbits = 2
+	bits = 4
+
+Analyzing hierarchy for entity <alu4> in library <work> (architecture <behavioral>) with generics.
+	bits = 4
+
+Analyzing hierarchy for entity <flagdec4> in library <work> (architecture <behavioral>) with generics.
+	bits = 4
+
+Analyzing hierarchy for entity <alu1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <alu1generate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <alu1propagate> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <rw4> in library <work> (Architecture <behavioral>).
+	adressbits = 2
+	bits = 4
+Entity <rw4> analyzed. Unit <rw4> generated.
+
+Analyzing generic Entity <alu4flag> in library <work> (Architecture <behavioral>).
+	bits = 4
+Entity <alu4flag> analyzed. Unit <alu4flag> generated.
+
+Analyzing generic Entity <alu4> in library <work> (Architecture <behavioral>).
+	bits = 4
+Entity <alu4> analyzed. Unit <alu4> generated.
+
+Analyzing Entity <alu1> in library <work> (Architecture <behavioral>).
+Entity <alu1> analyzed. Unit <alu1> generated.
+
+Analyzing Entity <alu1generate> in library <work> (Architecture <behavioral>).
+Entity <alu1generate> analyzed. Unit <alu1generate> generated.
+
+Analyzing Entity <alu1propagate> in library <work> (Architecture <behavioral>).
+Entity <alu1propagate> analyzed. Unit <alu1propagate> generated.
+
+Analyzing generic Entity <flagdec4> in library <work> (Architecture <behavioral>).
+	bits = 4
+Entity <flagdec4> analyzed. Unit <flagdec4> generated.
+
+Analyzing generic Entity <mux4> in library <work> (Architecture <behavioral>).
+	bits = 4
+Entity <mux4> analyzed. Unit <mux4> generated.
+
+Analyzing generic Entity <reg4> in library <work> (Architecture <behavioral>).
+	bits = 4
+WARNING:Xst:819 - "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/reg4.vhd" line 47: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <Clk>
+Entity <reg4> analyzed. Unit <reg4> generated.
+
+Analyzing generic Entity <ram4> in library <work> (Architecture <behavioral>).
+	adressbits = 2
+	bits = 4
+Entity <ram4> analyzed. Unit <ram4> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <mux4>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/mux4.vhd".
+Unit <mux4> synthesized.
+
+
+Synthesizing Unit <reg4>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/reg4.vhd".
+    Found 4-bit register for signal <Q>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <reg4> synthesized.
+
+
+Synthesizing Unit <ram4>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/ram4.vhd".
+WARNING:Xst:647 - Input <Res> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 4x4-bit single-port RAM <Mram_storage> for signal <storage>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <ram4> synthesized.
+
+
+Synthesizing Unit <flagdec4>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/flagdec4.vhd".
+    Found 1-bit xor2 for signal <F<2>>.
+Unit <flagdec4> synthesized.
+
+
+Synthesizing Unit <alu1generate>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu1generate.vhd".
+Unit <alu1generate> synthesized.
+
+
+Synthesizing Unit <alu1propagate>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu1propagate.vhd".
+Unit <alu1propagate> synthesized.
+
+
+Synthesizing Unit <alu1>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu1.vhd".
+    Found 1-bit xor2 for signal <q$xor0000>.
+Unit <alu1> synthesized.
+
+
+Synthesizing Unit <alu4>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu4.vhd".
+Unit <alu4> synthesized.
+
+
+Synthesizing Unit <alu4flag>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/alu4flag.vhd".
+Unit <alu4flag> synthesized.
+
+
+Synthesizing Unit <rw4>.
+    Related source file is "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.vhd".
+Unit <rw4> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port RAM                               : 1
+# Registers                                            : 2
+ 4-bit register                                        : 2
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <ram4>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_storage> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <M_IN>          | high     |
+    |     addrA          | connected to signal <ADR>           |          |
+    |     diA            | connected to signal <D>             |          |
+    |     doA            | connected to signal <RAM>           |          |
+    -----------------------------------------------------------------------
+Unit <ram4> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port distributed RAM                   : 1
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <rw4> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block rw4, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : rw4.ngr
+Top Level Output File Name         : rw4
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 36
+
+Cell Usage :
+# BELS                             : 58
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT2_L                      : 4
+#      LUT3                        : 17
+#      LUT3_D                      : 2
+#      LUT3_L                      : 1
+#      LUT4                        : 22
+#      LUT4_D                      : 2
+#      LUT4_L                      : 4
+#      MUXF5                       : 2
+# FlipFlops/Latches                : 8
+#      FDCE                        : 8
+# RAMS                             : 4
+#      RAM16X1S                    : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 35
+#      IBUF                        : 15
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       31  out of   4656     0%  
+ Number of Slice Flip Flops:              8  out of   9312     0%  
+ Number of 4 input LUTs:                 59  out of   9312     0%  
+    Number used as logic:                55
+    Number used as RAMs:                  4
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    232    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 12    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+Res                                | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.930ns (Maximum Frequency: 111.982MHz)
+   Minimum input arrival time before clock: 11.036ns
+   Maximum output required time after clock: 11.704ns
+   Maximum combinational path delay: 13.810ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 8.930ns (frequency: 111.982MHz)
+  Total number of paths / destination ports: 298 / 12
+-------------------------------------------------------------------------
+Delay:               8.930ns (Levels of Logic = 6)
+  Source:            RAM_4/Mram_storage1 (RAM)
+  Destination:       REG_F/Q_0 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: RAM_4/Mram_storage1 to REG_F/Q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM16X1S:WCLK->O      7   1.901   0.712  RAM_4/Mram_storage1 (RAM_0_OBUF)
+     LUT4:I3->O            3   0.704   0.535  ALU/aluinstanc/schleife[0].bitspace/generate_instanz/g_and00011 (ALU/aluinstanc/schleife[0].bitspace/generate_instanz/g_and0001)
+     LUT4:I3->O            2   0.704   0.451  ALU/aluinstanc/schleife[0].bitspace/cout (ALU/aluinstanc/C<1>)
+     LUT4_L:I3->LO         1   0.704   0.104  ALU/aluinstanc/schleife[2].bitspace/cout_SW2 (N27)
+     LUT4:I3->O            4   0.704   0.591  ALU/aluinstanc/schleife[2].bitspace/cout (ALU/Cn_inter)
+     LUT4_L:I3->LO         1   0.704   0.104  MUX_F/Y<0>_SW0_SW0 (N46)
+     LUT4:I3->O            1   0.704   0.000  MUX_F/Y<0> (F_M_inter<0>)
+     FDCE:D                    0.308          REG_F/Q_0
+    ----------------------------------------
+    Total                      8.930ns (6.433ns logic, 2.497ns route)
+                                       (72.0% logic, 28.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 924 / 32
+-------------------------------------------------------------------------
+Offset:              11.036ns (Levels of Logic = 9)
+  Source:            ROM<0> (PAD)
+  Destination:       REG_F/Q_0 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: ROM<0> to REG_F/Q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   1.218   1.192  ROM_0_IBUF (ROM_0_IBUF)
+     LUT2:I0->O            1   0.704   0.455  ALU/aluinstanc/schleife[0].bitspace/cout_SW2_SW0_SW0 (N42)
+     LUT4:I2->O            1   0.704   0.455  ALU/aluinstanc/schleife[0].bitspace/cout_SW2_SW0 (N36)
+     LUT4:I2->O            2   0.704   0.526  ALU/aluinstanc/schleife[0].bitspace/cout_SW2 (N14)
+     LUT4:I1->O            2   0.704   0.451  ALU/aluinstanc/schleife[0].bitspace/cout (ALU/aluinstanc/C<1>)
+     LUT4_L:I3->LO         1   0.704   0.104  ALU/aluinstanc/schleife[2].bitspace/cout_SW2 (N27)
+     LUT4:I3->O            4   0.704   0.591  ALU/aluinstanc/schleife[2].bitspace/cout (ALU/Cn_inter)
+     LUT4_L:I3->LO         1   0.704   0.104  MUX_F/Y<0>_SW0_SW0 (N46)
+     LUT4:I3->O            1   0.704   0.000  MUX_F/Y<0> (F_M_inter<0>)
+     FDCE:D                    0.308          REG_F/Q_0
+    ----------------------------------------
+    Total                     11.036ns (7.158ns logic, 3.878ns route)
+                                       (64.9% logic, 35.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 77 / 20
+-------------------------------------------------------------------------
+Offset:              11.704ns (Levels of Logic = 6)
+  Source:            RAM_4/Mram_storage1 (RAM)
+  Destination:       DAT<3> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: RAM_4/Mram_storage1 to DAT<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM16X1S:WCLK->O      7   1.901   0.712  RAM_4/Mram_storage1 (RAM_0_OBUF)
+     LUT4:I3->O            3   0.704   0.535  ALU/aluinstanc/schleife[0].bitspace/generate_instanz/g_and00011 (ALU/aluinstanc/schleife[0].bitspace/generate_instanz/g_and0001)
+     LUT4:I3->O            2   0.704   0.451  ALU/aluinstanc/schleife[0].bitspace/cout (ALU/aluinstanc/C<1>)
+     LUT4_L:I3->LO         1   0.704   0.104  ALU/aluinstanc/schleife[2].bitspace/cout_SW2 (N27)
+     LUT4:I3->O            4   0.704   0.622  ALU/aluinstanc/schleife[2].bitspace/cout (ALU/Cn_inter)
+     LUT3:I2->O            4   0.704   0.587  ALU/aluinstanc/schleife[3].bitspace/q1 (DAT_3_OBUF)
+     OBUF:I->O                 3.272          DAT_3_OBUF (DAT<3>)
+    ----------------------------------------
+    Total                     11.704ns (8.693ns logic, 3.011ns route)
+                                       (74.3% logic, 25.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 206 / 12
+-------------------------------------------------------------------------
+Delay:               13.810ns (Levels of Logic = 9)
+  Source:            ROM<0> (PAD)
+  Destination:       DAT<3> (PAD)
+
+  Data Path: ROM<0> to DAT<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   1.218   1.192  ROM_0_IBUF (ROM_0_IBUF)
+     LUT2:I0->O            1   0.704   0.455  ALU/aluinstanc/schleife[0].bitspace/cout_SW2_SW0_SW0 (N42)
+     LUT4:I2->O            1   0.704   0.455  ALU/aluinstanc/schleife[0].bitspace/cout_SW2_SW0 (N36)
+     LUT4:I2->O            2   0.704   0.526  ALU/aluinstanc/schleife[0].bitspace/cout_SW2 (N14)
+     LUT4:I1->O            2   0.704   0.451  ALU/aluinstanc/schleife[0].bitspace/cout (ALU/aluinstanc/C<1>)
+     LUT4_L:I3->LO         1   0.704   0.104  ALU/aluinstanc/schleife[2].bitspace/cout_SW2 (N27)
+     LUT4:I3->O            4   0.704   0.622  ALU/aluinstanc/schleife[2].bitspace/cout (ALU/Cn_inter)
+     LUT3:I2->O            4   0.704   0.587  ALU/aluinstanc/schleife[3].bitspace/q1 (DAT_3_OBUF)
+     OBUF:I->O                 3.272          DAT_3_OBUF (DAT<3>)
+    ----------------------------------------
+    Total                     13.810ns (9.418ns logic, 4.392ns route)
+                                       (68.2% logic, 31.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.14 secs
+ 
+--> 
+
+
+Total memory usage is 521660 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

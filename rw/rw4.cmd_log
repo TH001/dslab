@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+vhdtdtfi -lib work alu1propagate.vhd -lib work alu1generate.vhd -lib work alu1.vhd -lib work flagdec4.vhd -lib work alu4.vhd -lib work reg4.vhd -lib work ram4.vhd -lib work mux4.vhd -lib work alu4flag.vhd -lib work rw4.vhd -prj rw -o rw4.spl -module rw4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e rw4.spl /vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.sym 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+vhdtdtfi -lib work alu1propagate.vhd -lib work alu1generate.vhd -lib work alu1.vhd -lib work flagdec4.vhd -lib work alu4.vhd -lib work reg4.vhd -lib work ram4.vhd -lib work mux4.vhd -lib work alu4flag.vhd -lib work rw4.vhd -prj rw -o rw4.spl -module rw4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e rw4.spl /vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.sym 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+vhdtdtfi -lib work alu1propagate.vhd -lib work alu1generate.vhd -lib work alu1.vhd -lib work flagdec4.vhd -lib work alu4.vhd -lib work reg4.vhd -lib work ram4.vhd -lib work mux4.vhd -lib work alu4flag.vhd -lib work rw4.vhd -prj rw -o rw4.spl -module rw4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e rw4.spl /vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.sym 
+xst -intstyle ise -ifn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.xst" -ofn "/vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.syr" 
+vhdtdtfi -lib work alu1propagate.vhd -lib work alu1generate.vhd -lib work alu1.vhd -lib work flagdec4.vhd -lib work alu4.vhd -lib work reg4.vhd -lib work ram4.vhd -lib work mux4.vhd -lib work alu4flag.vhd -lib work rw4.vhd -prj rw -o rw4.spl -module rw4 -template /vol/pool-echip/Xilinx_14.6/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e rw4.spl /vol/fob-vol7/mi18/heinetom/dslab1.git/rw/rw4.sym 

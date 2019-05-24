@@ -30,6 +30,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity rw4 is
+generic(bits:integer:=4;adressbits:integer:=2);
     Port ( MF : in  STD_LOGIC;
            F_IN : in  STD_LOGIC;
            BA : in  STD_LOGIC;
@@ -95,6 +96,7 @@ Signal DAT_inter: STD_LOGIC_VECTOR (bits-1 downto 0);
 Signal A_inter: STD_LOGIC_VECTOR (bits-1 downto 0);
 Signal B_inter: STD_LOGIC_VECTOR (bits-1 downto 0);
 Signal F_inter: STD_LOGIC_VECTOR (bits-1 downto 0);
+Signal FLAG_inter: STD_LOGIC_VECTOR (bits-1 downto 0);
 Signal F_M_inter: STD_LOGIC_VECTOR (bits-1 downto 0);
 Signal RAM_inter: STD_LOGIC_VECTOR (bits-1 downto 0);
 
@@ -108,58 +110,59 @@ ALU: alu4flag
 		Port map ( 
 					BA => BA,
 					S => S,
-					A_inter => A,
-					B_inter => B,
-					Cin_inter => Cin,
-					F_inter <= F,
-					DAT_inter <= Q);
+					A => A_inter,
+					B => B_inter,
+					Cin => Cin_inter,
+					F => FLAG_inter,
+					Q => DAT_inter);
 
 MUX_F: mux4
 	generic map (bits)
 		Port map ( 
-					DAT_inter => X1,
-					MF => S,
-					F_inter => X0,
-					F_M_inter <= Y);
+					X1 => DAT_inter,
+					S => MF,
+					X0 => FLAG_inter,
+					Y => F_M_inter);
 				
 MUX_B: mux4
 	generic map (bits)
 		Port map ( 
-					RAM_inter => X1,
-					MB=>S,
-					ROM => X0,
-					B_inter <= Y);
+					X1 => RAM_inter,
+					S => MB,
+					X0 => ROM,
+					Y => B_inter);
 
 
 REG_F: reg4
 	generic map(bits)
 		Port map( 
-					F_M_inter => D, 
-					F_inter => CE, 
+					D => F_M_inter, 
+					CE => F_IN, 
 					Clk => Clk,
 					Res => Res, 
-					F_inter <= Q 
-					Cin_inter <= Q(1));
+					Q => F_inter);
+					
+	Cin_inter <= F_inter(1);
 					
 REG_A: reg4
 	generic map(bits)
 		Port map( 
-					DAT_inter => D, 
-					A_IN => CE, 
+					D => DAT_inter, 
+					CE => A_IN, 
 					Clk => Clk,
 					Res => Res, 
-					A_inter <= Q);
+					Q => A_inter);
 
-RAM: ram4
+RAM_4: ram4
 -- adress bitbreite ist immer kleiner als daten
 	generic map(bits,adressbits)
 		 Port map(
-					DAT_inter => D, 
+					D => DAT_inter, 
 					M_IN => M_IN, 
-					ROM(adressbits to 0) => ADR, 
+					ADR => ROM(adressbits-1 downto 0), 
 					Clk => Clk, 
 					Res => Res, 
-					RAM_inter <= RAM);
+					RAM => RAM_inter);
 
 	F <= F_inter;
 	DAT <= DAT_inter;
