@@ -83,7 +83,7 @@ begin
 				  Q => Q_inter);
 	flaginst: flagdec4
 	generic map (bits)
-		Port map(  Cn =>Cn_inter,
+		Port map(  Cn => Cn_inter,
 			  Cout => Cout_inter,
 			  Q => Q_inter,
 			  F => F);
