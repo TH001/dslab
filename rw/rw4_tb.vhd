@@ -86,8 +86,10 @@ BEGIN
 -- *** Test Bench - Clock Section ***
 	clk_process: PROCESS
 	BEGIN
-	if Clk = '1' then Clk <= '0'; 
-	else Clk <= '1';  end if;
+	if Clk = '1' then 
+		Clk <= '0'; 
+	else Clk <= '1';
+	end if;
 	WAIT FOR CLK_PERIOD/2;
 	END PROCESS;
 
@@ -170,11 +172,65 @@ BEGIN
         
  -- Hier weitere Tests einfuegen!
  --------------------------------
-		TESTPHASE <= "To Do";
+		 
+		TESTPHASE <= "REGF1";
+		F_IN  <= '1' ;
+		MF	<= '1';
+		BA <= '1';
+		S <= "1111";
+		
+		ROM	<= "0000";
+		A_IN  <= '0';
+		M_IN  <= '0' ;
+      MB	<= '0';
+		
+		WAIT for CLK_PERIOD;
+		assert F = "1111" report "(O1) REGF1 Fehlerhaft" severity error;  
+		
+		TESTPHASE <= "INCRA";
+		BA <= '0';
+		S <= "0011";
+		A_IN <= '1';
+		
+		ROM	<= "0000";
+		F_IN  <= '0';
+		M_IN  <= '0' ;
+		MB	<= '0';
+		MF	<= '0';
+		
+		WAIT for CLK_PERIOD;
+		assert A = "1001" report "(O2) INCRA Fehlerhaft" severity error;  
+		
+		TESTPHASE <= "AXOR2";
+		A_IN <= '1';
+		BA <= '1';
+		S <= "0110";
+		ROM <= "0010";
+		MB <= '1';
+		
+		F_IN  <= '0';
+		M_IN  <= '0' ;
+		MF	<= '0';
+		
+		WAIT for CLK_PERIOD;
+		assert A = "0001" report "(O3) AXOR2 Fehlerhaft" severity error; 
+		
+		TESTPHASE <= "STOR1";
 
+		M_IN <= '1';
+		ROM	<= "0001";
+		BA    <= '1';
+		S     <= "1100";
+		
+		A_IN  <= '0';
+		F_IN  <= '0';
+		MB	<= '0';
+		MF	<= '0';
  
- 
- 
+		WAIT for CLK_PERIOD;
+		assert RAM = "0001" report "(O4) STOR1 Fehlerhaft" severity error; 
+		
+
  
  
  

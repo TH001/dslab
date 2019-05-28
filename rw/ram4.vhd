@@ -48,7 +48,10 @@ begin
 
 process (Clk)
 begin
-   if (Clk'event and Clk= '1') then
+--	if Res='1' then
+--			storage <= (others => '0');
+--   els
+	if (Clk'event and Clk= '1') then
       if (M_IN = '1') then
          storage(to_integer(unsigned(ADR))) <= D;
       end if;

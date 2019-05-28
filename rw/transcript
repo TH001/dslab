@@ -1,0 +1,108 @@
+# //  ModelSim SE-64 10.0b May  5 2011 Linux 4.12.14-lp150.12.61-default
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {rw4_rw4_sch_tb.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu1propagate
+# -- Compiling architecture Behavioral of alu1propagate
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu1generate
+# -- Compiling architecture Behavioral of alu1generate
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu1
+# -- Compiling architecture Behavioral of alu1
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flagdec4
+# -- Compiling architecture Behavioral of flagdec4
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu4
+# -- Compiling architecture Behavioral of alu4
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg4
+# -- Compiling architecture Behavioral of reg4
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram4
+# -- Compiling architecture Behavioral of ram4
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4
+# -- Compiling architecture Behavioral of mux4
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu4flag
+# -- Compiling architecture Behavioral of alu4flag
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rw4
+# -- Compiling architecture Behavioral of rw4
+# Model Technology ModelSim SE-64 vcom 10.0b Compiler 2011.05 May  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity rw4_rw4_sch_tb
+# -- Compiling architecture behavioral of rw4_rw4_sch_tb
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.rw4_rw4_sch_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.rw4_rw4_sch_tb(behavioral)#1
+# Loading work.rw4(behavioral)#1
+# Loading work.alu4flag(behavioral)#1
+# Loading work.alu4(behavioral)#1
+# Loading work.alu1(behavioral)#1
+# Loading work.alu1generate(behavioral)#1
+# Loading work.alu1propagate(behavioral)#1
+# Loading work.flagdec4(behavioral)#1
+# Loading work.mux4(behavioral)#1
+# Loading work.reg4(behavioral)#1
+# Loading work.ram4(behavioral)#1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /rw4_rw4_sch_tb/UUT/RAM_4
+# ** Failure: Abbruch der Simulation
+#    Time: 900 ns  Iteration: 0  Process: /rw4_rw4_sch_tb/tb File: rw4_tb.vhd
+# Break in Process tb at rw4_tb.vhd line 242
+# Simulation Breakpoint: Break in Process tb at rw4_tb.vhd line 242
+# MACRO ./rw4_rw4_sch_tb.fdo PAUSED at line 55

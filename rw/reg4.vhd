@@ -41,12 +41,14 @@ end reg4;
 architecture Behavioral of reg4 is
 
 begin
-	process(CE,Res)
+	process(Clk,CE,Res)
 	begin
 		if Res='1' then
 			Q <= (others => '0');
 		elsif rising_edge(Clk) then
+		--elsif (Clk'event and Clk= '1') then
 			if CE='1' then
+				--report "bin hier";
 				Q <= D;
 			end if;
 		end if;

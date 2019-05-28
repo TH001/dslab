@@ -28,12 +28,15 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="alu4.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="alu4flag.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="flagdec4.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="ram4_ram4_sch_tb.fdo"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="reg4.fdo"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="reg4.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="reg4.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="reg4.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="reg4.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="reg4.vhi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="reg4.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="reg4_tb.fdo"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="rw4.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="rw4.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="rw4.ngc"/>
@@ -45,14 +48,80 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="rw4.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="rw4.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="rw4_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="rw4_rw4_sch_tb.fdo"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="rw4_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rw4_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rw4_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_LOG" xil_pn:name="vsim.wlf"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="work"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1559034616" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1559034616">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559048864" xil_pn:in_ck="7427787561325145563" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1559048864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="adrdec2_tb.vhd"/>
+      <outfile xil_pn:name="alu1.vhd"/>
+      <outfile xil_pn:name="alu1generate.vhd"/>
+      <outfile xil_pn:name="alu1propagate.vhd"/>
+      <outfile xil_pn:name="alu4.vhd"/>
+      <outfile xil_pn:name="alu4flag.vhd"/>
+      <outfile xil_pn:name="flagdec4.vhd"/>
+      <outfile xil_pn:name="mux4.vhd"/>
+      <outfile xil_pn:name="ram2_tb.vhd"/>
+      <outfile xil_pn:name="ram4.vhd"/>
+      <outfile xil_pn:name="ram4_tb.vhd"/>
+      <outfile xil_pn:name="reg4.vhd"/>
+      <outfile xil_pn:name="reg4_tb.vhd"/>
+      <outfile xil_pn:name="rw4.vhd"/>
+      <outfile xil_pn:name="rw4_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1559046693" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9077297770119945561" xil_pn:start_ts="1559046693">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559046693" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3404130555686898089" xil_pn:start_ts="1559046693">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559034616" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7767589587941938040" xil_pn:start_ts="1559034616">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559048864" xil_pn:in_ck="7427787561325145563" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1559048864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="adrdec2_tb.vhd"/>
+      <outfile xil_pn:name="alu1.vhd"/>
+      <outfile xil_pn:name="alu1generate.vhd"/>
+      <outfile xil_pn:name="alu1propagate.vhd"/>
+      <outfile xil_pn:name="alu4.vhd"/>
+      <outfile xil_pn:name="alu4flag.vhd"/>
+      <outfile xil_pn:name="flagdec4.vhd"/>
+      <outfile xil_pn:name="mux4.vhd"/>
+      <outfile xil_pn:name="ram2_tb.vhd"/>
+      <outfile xil_pn:name="ram4.vhd"/>
+      <outfile xil_pn:name="ram4_tb.vhd"/>
+      <outfile xil_pn:name="reg4.vhd"/>
+      <outfile xil_pn:name="reg4_tb.vhd"/>
+      <outfile xil_pn:name="rw4.vhd"/>
+      <outfile xil_pn:name="rw4_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1559048864" xil_pn:in_ck="7427787561325145563" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1559048864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="rw4_rw4_sch_tb.fdo"/>
+      <outfile xil_pn:name="vsim.wlf"/>
+      <outfile xil_pn:name="work"/>
+    </transform>
     <transform xil_pn:end_ts="1558697321" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1558697321">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -81,10 +150,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1558698406" xil_pn:in_ck="-2888277265057232168" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-6234177166818167010" xil_pn:start_ts="1558698399">
+    <transform xil_pn:end_ts="1559044321" xil_pn:in_ck="-2888277265057232168" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-6234177166818167010" xil_pn:start_ts="1559044313">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="rw4.lso"/>
