@@ -66,6 +66,10 @@
     <transform xil_pn:end_ts="1559048864" xil_pn:in_ck="7427787561325145563" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1559048864">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="adrdec2_tb.vhd"/>
       <outfile xil_pn:name="alu1.vhd"/>
       <outfile xil_pn:name="alu1generate.vhd"/>
@@ -97,6 +101,11 @@
     <transform xil_pn:end_ts="1559048864" xil_pn:in_ck="7427787561325145563" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1559048864">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="adrdec2_tb.vhd"/>
       <outfile xil_pn:name="alu1.vhd"/>
       <outfile xil_pn:name="alu1generate.vhd"/>
@@ -116,7 +125,10 @@
     <transform xil_pn:end_ts="1559048864" xil_pn:in_ck="7427787561325145563" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="7256766304810292024" xil_pn:start_ts="1559048864">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="rw4_rw4_sch_tb.fdo"/>
       <outfile xil_pn:name="vsim.wlf"/>

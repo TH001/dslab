@@ -231,9 +231,6 @@ BEGIN
 		assert RAM = "0001" report "(O4) STOR1 Fehlerhaft" severity error; 
 		
 
- 
- 
- 
 		WAIT for CLK_PERIOD;	
 		TESTPHASE <= "Ende!";
 		
